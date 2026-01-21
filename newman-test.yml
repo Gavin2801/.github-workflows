@@ -32,4 +32,9 @@ jobs:
         with:
           name: newman-report
           path: newman-report.html
+
+          git add .github/workflows/newman-test.yml
+git commit -m "Add GitHub Actions workflow to run Newman"
+git push origin main
+
           
